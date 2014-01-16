@@ -1,0 +1,7 @@
+{
+    "name": "grunt-jsdoc-sample",
+    "version": "0.0.0",
+    "devDependencies": {
+        "grunt-jsdoc": "~0.5.1"
+    }
+}
