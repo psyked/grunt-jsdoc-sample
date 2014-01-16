@@ -9,7 +9,9 @@ module.exports = function (grunt) {
                 src: ['src/**/*.js'],
                 options: {
                     destination: 'jsdoc-generated',
-                    lenient: true
+                    lenient: true,
+                    template: "./node_modules/ink-docstrap/template",
+                    configure: "./node_modules/ink-docstrap/template/jsdoc.conf.json"
                 }
             }
         }
