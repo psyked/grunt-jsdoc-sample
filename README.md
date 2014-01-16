@@ -11,10 +11,12 @@ Steps to replicate the issue:
 3. Run `grunt jsdoc` in the current directory.
 4. Marvel as the task fails, with the error:
 
-> Running "jsdoc:dist" (jsdoc) task 
-> >> jsdoc config file path does not exist
-> Warning: Wrong configuration Use --force to continue.
-  
+```
+Running "jsdoc:dist" (jsdoc) task 
+>> jsdoc config file path does not exist
+Warning: Wrong configuration Use --force to continue.
+```
+
 ... or something similar.
 
 However, simply modifying the `Gruntfile.js` to remove the properties `template` and `configure` and it compiles correctly.
